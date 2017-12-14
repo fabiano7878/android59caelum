@@ -28,7 +28,7 @@ public class ListaLivroFragment extends Fragment {
     @BindView(R.id.lista_livros)
     RecyclerView recyclerView;
 
-    private List<Livro> livros = new ArrayList<>();
+    //private List<Livro> livros = new ArrayList<>();
 
     @Nullable
     @Override
@@ -45,17 +45,17 @@ public class ListaLivroFragment extends Fragment {
             Livro livro = new Livro("Livro "+i, "Descricao "+ i, Arrays.asList(autor));
             livros.add(livro);
         }*/
-
+        List<Livro> livros = (List<Livro>) getArguments().get("lista");
         recyclerView.setAdapter(new LivroAdapter(livros));
         recyclerView.setLayoutManager( new LinearLayoutManager(getContext()));
         return view;
     }
 
-    public void populaListaCom(List<Livro> livros) {
+ /*   public void populaListaCom(List<Livro> livros) {
         this.livros.clear();
         this.livros.addAll(livros);
         recyclerView.getAdapter().notifyDataSetChanged();
-    }
+    }*/
 
 
 }

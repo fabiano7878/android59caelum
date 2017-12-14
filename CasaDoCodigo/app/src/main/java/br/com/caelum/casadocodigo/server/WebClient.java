@@ -1,5 +1,7 @@
 package br.com.caelum.casadocodigo.server;
 
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.List;
 
 import br.com.caelum.casadocodigo.Delagate.LivroDelegate;
@@ -20,11 +22,11 @@ public class WebClient {
 
     private static final String SERVER_URL = "http://cdcmob.herokuapp.com/";
 
-    private LivroDelegate delegate;
+  //  private LivroDelegate delegate;
 
-    public WebClient(LivroDelegate pDelegate){
-        this.delegate = pDelegate;
-    }
+    //public WebClient(LivroDelegate pDelegate){
+        //this.delegate = pDelegate;
+    //}
 
     public void getLivros(){
 
@@ -40,12 +42,14 @@ public class WebClient {
         call.enqueue(new Callback<List<Livro>>() {
             @Override
             public void onResponse(Call<List<Livro>> call, Response<List<Livro>> response) {
-                delegate.lidaComSucesso(response.body());
+                //delegate.lidaComSucesso(response.body());
+                EventBus.getDefault().post(new LivroEvent(response.body()));
             }
 
             @Override
             public void onFailure(Call<List<Livro>> call, Throwable t) {
-                delegate.lidaComErro(t);
+                //delegate.lidaComErro(t);
+                EventBus.getDefault().post(t);
             }
         });
      }
