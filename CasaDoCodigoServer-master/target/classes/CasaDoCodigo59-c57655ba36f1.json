@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "casadocodigo59",
+  "private_key_id": "c57655ba36f16e04178d85cb1ba5d10a431d1665",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDcRD1CwzFCmMMT\nWmV5eMKaacudQo4fB9vDUJkW/ZtyjR2nVI7AWoKoGk+Vw/l1c3yuh2CWpmwifxv2\nr2v6KBFFrmpyYc6tZYBFktlnJPQKUDqzNT+1oK1LqTgbhm/mFjDAVjYn6p/aiLOm\n5iNJXpkMgtWflg6LY3WLAcGur5CKy2BI/+9f9mqWdbPOUIzs0NriUIV0TLhruHSP\nu/J4vafQsiQfPiBHD5bF8V8Sn6dEAP4g6XJ5RTy5eAUEXYHsQej/pKDSPdR6lSKf\nTlugLIiakhJPqrEufb3FeITT9b6OBoWmFoGDJmaHKJeUXm3HOxsbyii7yn2/O27j\ngXOlTmLdAgMBAAECggEAJDGuY1cRtCDIBVkYTZKTX648wBWcpuqyqPCIh2ea8ILR\nuZpCbscwqxDPvQtb5XnZphAmxfqI0E5UuP9wXcXRuMKFSVBbFtET99q+kJ1Y4Iz4\naFQ6qMzDTSh8SMGZh5Rj5GcGNR7vr4hBBQ7SA49g1NZ25edRcoQgX3wlaF/+/19H\n4paB7RhdO7zcfApNuuTNWy6J8qetSj+GJpNuzJR95w+o3JmTDZWILmrJK5bgBtdT\nKQMG4+GKtn7YkT4nY6z4hbAYTEdAjQ+JGB8d0xqvXPuasg13f7D1iTmdoR9oyyyL\nvDlwgbqYwzRc5ursrk00vxXDIdI32bP77+dqGiSmvQKBgQDwBc0x2I5t9hunuI0/\nd73cxcDruKH3Hdgbhi+T9hx2aCqRNKGksveJU4zpZ3Bpz/knZJwSXkTHRufImqpS\nNWr0zp31J4Qk5a09VwwoMKPpGstZigTg+li1NyLKDL9LyLZs/gCW/KGPdboT6tXQ\nLj5w6366atXv9lAI+qelgO65bwKBgQDq7ca7ckoxWaDDcLgos4Kq0Kjd9DSiNli4\nK5Nrp+WrIZrCelmMmG4o+diAEma1iDRjLBLNvmxwyY4wqt2OhVBsfFIllZQ5sG6D\nLwH+g5veAOHmlrfRvr95a7gmHVx8RAJdPnyLxDp4RTQ5FT+ZBywvCwgsyXJpCQlP\nzeipnXlKcwKBgEuKZ+QyNdFhzZ5htQKumvCqxGbruv3dRLCU8NBuetLBQfRlTiJZ\nuRJdW1HyHi0PKWk+fuhBBwB4zmYSV1x8N2dIx+nqP+qk5nsRtF/JvyyUJD/P8m0k\nHVsbOTXCAUrGprNy1ZivdeGCucee9yAIDdrYIxBko2RcbyAEU1MBWyC9AoGBAM6l\nTqztMEPOkfG4AdWTaTm1hwSNXYreARYnBmqo6gWo7odotcJNBoE2m/CzvvKpF2Ow\nje26NYrUUCWQ9of5zi9O/7cdpp9ECUGNJNTqkT0rS4nYQ2LUxXoZfYbRRtvruqSo\nZUdP2RqXzQL1JNcHjx7mNk+m9uNbVnyDI8emw9zvAoGAV5zbiCTT+u+nSunulpth\nJtfjb2uDRqUW8KyUUjGe6ky0I3S7PkwnKpwBXFagsGlxq9liv4jGrjRZCK2IWM+5\n872Nb4ZMtXaVWbEPpUjP/ryp/P/ezOZoou0Vey+08eCGSF93jEw6uVB6Vxit4Cbc\n/ArOfM00UXgaQPiNgVVclxI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "servidor@casadocodigo59.iam.gserviceaccount.com",
+  "client_id": "109415640234840493585",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/servidor%40casadocodigo59.iam.gserviceaccount.com"
+}
